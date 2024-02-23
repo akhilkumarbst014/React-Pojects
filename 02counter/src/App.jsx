@@ -10,8 +10,17 @@ function App() {
   const addValue = ()=>{
       //console.log("clicked:", {counter});
       //counter = counter + 1
-      if(counter<22){
+      if(counter < 22){
+        
       setCounter(counter+1)
+
+      // setCounter(counter => counter + 1) 
+      // setCounter(counter => counter + 1)  
+      // setCounter(counter => counter + 1)  
+      // setCounter(counter => counter + 1)
+      /* this above code is use to increase the counter 4 times after on click */
+
+
       }
   }
   const removevalue = ()=>{
