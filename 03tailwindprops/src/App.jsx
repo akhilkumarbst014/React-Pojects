@@ -19,7 +19,8 @@ function App() {
   return (
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Tailwind test</h1>
-      <Card username = "chai aur code" btnText = "click me"/*somObj = {myObj} someArr ={newArr} ---> this comment is use to add properties in the card which shown in the in console of browser*/ /> 
+      <Card username = "chai aur code" btnText = "click me"/*somObj = {myObj} someArr ={newArr} ---> this comment is use to add properties
+       in the card which shown in the in console of browser*/ /> 
       <Card username = " Ankita" btnText = "visit me"/>
     </>
   )
