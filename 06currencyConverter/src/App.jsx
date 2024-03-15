@@ -49,6 +49,7 @@ function App() {
                             label="From"
                             amount={amount}
                             currencyOptions={options}
+                            // eslint-disable-next-line no-unused-vars
                             onCurrencyChange={(currency) => setAmount(amount)}
                             selectCurrency={from}
                             onAmountChange={(amount) => setAmount(amount)}
